@@ -13,8 +13,8 @@ const Ball = (props) => {
       rotationIntensity={1}
       floatIntensity={2}
     >
-      <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
+      <ambientLight intensity={0.25}/>
+      <directionalLight position={[0, 0, 0.05]}/>
       <mesh
         castShadow
         receiveShadow
@@ -41,7 +41,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -54,4 +54,4 @@ const BallCanvas = ({ icon }) => {
   )
 }
 
-export default Ball
+export default BallCanvas;
