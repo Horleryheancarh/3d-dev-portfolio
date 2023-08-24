@@ -17,7 +17,7 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{
             max: 45,
             scale: 1,
-            speed: 450
+            speed: 450,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
@@ -42,12 +42,12 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga perspiciatis incidunt similique autem, modi, voluptate tenetur necessitatibus et voluptatibus suscipit ut, non provident beatae? Quos qui similique fugit delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit numquam pariatur eos, ratione, vero eaque dolor repellat recusandae consequatur earum ex iste adipisci dolorem commodi inventore. Necessitatibus, recusandae natus!
       </motion.p>
-
+      
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard
