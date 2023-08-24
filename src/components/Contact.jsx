@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -8,6 +8,7 @@ import { slideIn } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 const Contact = () => {
+  const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -15,9 +16,38 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send('service_id', 'template_id', {
+      from_name: form.name,
+      to_name: 'Horleryheancarh',
+      from_email: form.email,
+      to_email: 'test@mail.com',
+      message: form.message,
+    }, 'api_key').then((result) => {
+      setLoading(false);
+      alert('Thank tou, will get back ASAP');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      });
+    }, (error) => {
+      setLoading(false);
+
+      console.log(error);
+
+      alert('Something went wrong.')
+    });
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -58,6 +88,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
+              rows='7'
               name='message'
               value={form.message}
               onChange={handleChange}
