@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga perspiciatis incidunt similique autem, modi, voluptate tenetur necessitatibus et voluptatibus suscipit ut, non provident beatae? Quos qui similique fugit delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit numquam pariatur eos, ratione, vero eaque dolor repellat recusandae consequatur earum ex iste adipisci dolorem commodi inventore. Necessitatibus, recusandae natus!
+        I am a software engineer and DevOps engineer with experience in building backend APIs using Nodejs, building CI/CD pipelines and deploying applications on AWS. I&aposm a self motivated, fast learner who&aposs always willing to learn new things while adding value to any organisation I am opportune to work with and constantly improving on my skills to make an impact.
       </motion.p>
       
       <div className="mt-20 flex flex-wrap gap-10">

@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import virtoffix from "./company/virtoffix.jpeg"
+import moonsat from "./company/moonsat.jpeg"
+import center from "./company/center.jpeg"
+import darey from "./company/darey.jpeg"
+import zuri from "./company/zuri.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  moonsat,
+  darey,
+  zuri,
+  center,
+  virtoffix,
 };
