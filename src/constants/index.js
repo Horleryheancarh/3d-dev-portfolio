@@ -14,7 +14,16 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  html,
+  sequelize,
+  mariadb,
+  moleculer,
+  postgresql,
+  python,
+  nestjs,
+  terraform,
+  ansible,
+  jenkins,
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +62,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Node JS",
+    name: "NodeJS",
     icon: nodejs,
   },
   {
@@ -61,8 +70,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "HTML5",
+    icon: html,
   },
   {
     name: "git",
@@ -72,6 +81,42 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Sequelize",
+    icon: sequelize,
+  },
+  {
+    name: "mariadb",
+    icon: mariadb,
+  },
+  {
+    name: "Moleculer",
+    icon: moleculer,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "NestJS",
+    icon: nestjs,
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
 ];
 
 const experiences = [
@@ -79,7 +124,7 @@ const experiences = [
     title: "Backend Engineer",
     company_name: "Moonsat Technology",
     icon: moonsat,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "January 2023 - Present",
     points: [
       "Built APIs using ExpressJS and NestJS (Typescript)",
@@ -91,7 +136,7 @@ const experiences = [
     title: "Backend Engineer",
     company_name: "Virtoffix",
     icon: virtoffix,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "January 2022 - December 2022",
     points: [
       "Built APIs for products",
@@ -117,7 +162,7 @@ const experiences = [
     title: "DevOps Engineer Apprenticeship",
     company_name: "Darey.io",
     icon: darey,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "April 2022 - August 2022",
     points: [
       "Deployed of LAMP, LEMP, MEAN and MERN stack applications to servers in the cloud",
@@ -136,7 +181,7 @@ const experiences = [
     title: "Backend Engineer",
     company_name: "Zuri Team",
     icon: zuri,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "March 2021 - July 2021",
     points: [
       "Built an API with Nodejs",

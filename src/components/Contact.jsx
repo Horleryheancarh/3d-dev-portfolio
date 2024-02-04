@@ -33,7 +33,7 @@ const Contact = () => {
       message: form.message,
     }, 'api_key').then((result) => {
       setLoading(false);
-      alert('Thank tou, will get back ASAP');
+      alert('Thank you, will get back ASAP');
 
       setForm({
         name: '',

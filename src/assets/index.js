@@ -7,7 +7,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -15,21 +14,26 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import sequelize from "./tech/sequelize.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import mariadb from "./tech/mariadb.png";
+import moleculer from "./tech/moleculer.png";
+import postgresql from "./tech/postgresql.png";
+import python from "./tech/python.png";
+import nestjs from "./tech/nestjs.png";
+import terraform from "./tech/terraform.png";
+import ansible from "./tech/ansible.png";
+import jenkins from "./tech/jenkins.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import virtoffix from "./company/virtoffix.jpeg"
-import moonsat from "./company/moonsat.jpeg"
-import center from "./company/center.jpeg"
-import darey from "./company/darey.jpeg"
-import zuri from "./company/zuri.jpeg"
+import virtoffix from "./company/virtoffix.png"
+import moonsat from "./company/moonsat.png"
+import center from "./company/center.png"
+import darey from "./company/darey.png"
+import zuri from "./company/zuri.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -44,7 +48,6 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
   figma,
   git,
@@ -52,11 +55,16 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
-  redux,
-  tailwind,
+  sequelize,
+  mariadb,
+  moleculer,
+  postgresql,
+  python,
+  nestjs,
+  terraform,
+  ansible,
+  jenkins,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
