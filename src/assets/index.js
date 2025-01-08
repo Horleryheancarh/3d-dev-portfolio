@@ -30,7 +30,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import virtoffix from "./company/virtoffix.png"
-import moonsat from "./company/moonsat.png"
+import clique from "./company/clique.png"
 import center from "./company/center.png"
 import darey from "./company/darey.png"
 import zuri from "./company/zuri.png"
@@ -72,7 +72,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  moonsat,
+  clique,
   darey,
   zuri,
   center,

@@ -7,6 +7,11 @@ import { EarthCanvas } from './canvas';
 import { slideIn } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
+const templateId = 'template_vtbimmv';
+const serviceId = 'service_03yjmoi';
+const pubKey = 'wnIK3cPpZXjvrkIDO';
+const secretKey = 'nSQHX38MzwQyqRcod01_y';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -25,13 +30,13 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send('service_id', 'template_id', {
+    emailjs.send('service_03yjmoi', 'template_vtbimmv', {
       from_name: form.name,
       to_name: 'Horleryheancarh',
       from_email: form.email,
-      to_email: 'test@mail.com',
+      to_email: 'oladipoolayinka7@gmail.com',
       message: form.message,
-    }, 'api_key').then((result) => {
+    }, 'wnIK3cPpZXjvrkIDO').then(() => {
       setLoading(false);
       alert('Thank you, will get back ASAP');
 

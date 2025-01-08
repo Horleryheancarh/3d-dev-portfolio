@@ -7,14 +7,13 @@ import {
   mongodb,
   git,
   docker,
-  moonsat,
+  clique,
   darey,
   virtoffix,
   zuri,
   carrent,
   jobit,
   tripguide,
-  html,
   sequelize,
   mariadb,
   moleculer,
@@ -24,6 +23,7 @@ import {
   terraform,
   ansible,
   jenkins,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -70,10 +70,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "HTML5",
-    icon: html,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -86,16 +82,8 @@ const technologies = [
     icon: sequelize,
   },
   {
-    name: "mariadb",
-    icon: mariadb,
-  },
-  {
     name: "Moleculer",
     icon: moleculer,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
   },
   {
     name: "Python",
@@ -117,13 +105,42 @@ const technologies = [
     name: "Jenkins",
     icon: jenkins,
   },
+  {
+    name: "MariaDB",
+    icon: mariadb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
 ];
 
 const experiences = [
   {
     title: "Backend Engineer",
-    company_name: "Moonsat Technology",
-    icon: moonsat,
+    company_name: "CareTrace",
+    icon: clique,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - October 2024",
+    points: [
+      "Built API using NestJS (Typescript)",
+      "Set Up CI/CD using GitHub Actions for Deployment",
+      "Containerised API and deploy to AWS",
+      "Monitored and troubleshooted Applications downtime",
+    ],
+  },
+  {
+    title: "Backend Engineer",
+    company_name: "Clique",
+    icon: clique,
     iconBg: "#E6DEDD",
     date: "January 2023 - Present",
     points: [
